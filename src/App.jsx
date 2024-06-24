@@ -4,7 +4,10 @@ function App() {
 
   return (
     <>
-      <button onClick={() => setCount((count) => count + 1)}>
+      <button
+        className="ml-4 text-green-400"
+        onClick={() => setCount((count) => count + 1)}
+      >
         count is {count}
       </button>
     </>
